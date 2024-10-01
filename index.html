@@ -3,73 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Abayashram - Transitional Home for Mentally Ill Women. Humanism for Peace.">
-    <title>Abayashram - Home</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <title>Abayashram - Humanism for Peace</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Abayashram</h1>
-            <p>Motto: Humanism for Peace | Vision: India</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <p>Motto: Humanism for Peace</p>
         </div>
     </header>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Empowering Women for a Better Tomorrow</h2>
-            <p>A sanctuary of healing, care, and support for mentally ill women.</p>
-            <button onclick="scrollToSection('#about')">Learn More</button>
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Abayashram</h2>
+        <p>Abayashram is a transitional home for mentally ill women, dedicated to offering them a safe space to heal, grow, and reintegrate into society. Our vision is to spread peace and humanism across India.</p>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Counseling and therapy sessions</li>
+            <li>Rehabilitation programs</li>
+            <li>Job skill training</li>
+            <li>Medical support and wellness programs</li>
+        </ul>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Abayashram Event">
+            <img src="image2.jpg" alt="Women Empowerment Program">
+            <img src="image3.jpg" alt="Counseling Session">
+            <img src="image4.jpg" alt="Community Engagement">
         </div>
     </section>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Abayashram</h2>
-            <p>Abayashram is a transitional home for women with mental illness, where we prioritize recovery, support, and reintegration into society. We believe in humanism for peace and envision a better India.</p>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Counseling and Therapy</li>
-                <li>Skill Development</li>
-                <li>Residential Care</li>
-                <li>Rehabilitation Programs</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="gallery">
-        <div class="container">
-            <h2>Gallery</h2>
-            <input type="file" id="imageUpload" multiple>
-            <div id="imageGallery"></div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Email: info@abayashram.org | Phone: +91 1234567890</p>
-        </div>
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Address: 1234 Peace Street, City, India</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Email: contact@abayashram.org</p>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Abayashram - Transitional Home for Mentally Ill Women. All Rights Reserved.</p>
+            <p>&copy; 2024 Abayashram. All rights reserved. Vision: India</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
