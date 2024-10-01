@@ -1,4 +1,4 @@
-styles.css
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -67,3 +67,12 @@ footer {
     text-align: center;
     clear: both;
 }
+```
+
+
+*JavaScript (script.js)*
+```
+// Add event listener to button
+document.querySelector('button').addEventListener('click', function() {
+    alert('Thank you for your interest in Abayashram!');
+});
